@@ -1,0 +1,91 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+main{
+    max-width: 1440px; 
+    width: 100%;
+    margin: 0 auto;
+}
+.m-img {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  background-image: url(./assets/your_verse_hero.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 99%;
+  background-size: cover;
+  max-width: 1440px;
+  max-height: 645px;
+  position: relative;
+}
+header{
+    width: 980px;
+    margin: auto;
+}
+.heading {
+  width: 980px;
+  height: 104px;
+  background-image: url(./assets/your_verse_title_small.png);
+  background-position: 0px 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sub-heading {
+  width: 980px;
+  height: 82px;
+  background-image: url(./assets/your_verse_subhead_small.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sm-heading {
+  width: 980px;
+  height: 32px;
+  background-image: url(./assets/cta_your_verse_27pt.png);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 32px;
+}
+.sm-heading:hover {
+  background-position: 0px -32px;
+  cursor: pointer;
+
+}
+.sm-img-wrappper {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  max-width: 1440px;
+  max-height: 200px;
+}
+.sm-img-wrappper .a-img {
+  width: 365px;
+  height: 200px;
+  background-image: url(./assets/promo_iphone5s.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 2.5px white;
+}
+.sm-img-wrappper .b-img {
+  width: 365px;
+  height: 200px;
+  background-image: url(./assets/promo_iphone5c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sm-img-wrappper .c-img {
+  width: 365px;
+  height: 200px;
+  background-image: url(./assets/promo_30_years.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sm-img-wrappper .d-img {
+  width: 365px;
+  height: 200px;
+  background-image: url(./assets/promo_supplier_responsibility.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
