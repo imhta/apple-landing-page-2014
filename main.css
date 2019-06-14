@@ -2,7 +2,13 @@ body {
   padding: 0;
   margin: 0;
 }
-main{
+a{  color: #08c;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;   
+}
+.container{
     max-width: 1440px; 
     width: 100%;
     margin: 0 auto;
@@ -88,4 +94,35 @@ header{
   background-image: url(./assets/promo_supplier_responsibility.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+footer{
+    padding: 1em 0 2.6em;
+}
+footer .row{
+    display: flex;
+    width: 980px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+footer .col{
+    display: flex;
+    color: #6e6e6e;
+    font-size: 10.0008px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer .col ul{
+    display: flex;
+    list-style: none;
+}
+footer .col ul li{
+    border-right: solid #6e6e6e 1px ;
+    padding: 0 5px;
+}
+
+.usa{
+    width: 16px;
+    height: 16px;
+    margin: 10px auto;
+    margin-left: 5px;
 }
