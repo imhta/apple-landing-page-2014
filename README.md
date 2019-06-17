@@ -6,7 +6,7 @@
   * CSS
 #### [Design Heatmap](https://www.figma.com/file/USbBI9jzdGU7Vfq2ZciSQ97s/apple-landing-page-2014?node-id=0%3A1)
 ## Cloned URL
-### [live preview](https://apple-landing-page-2014-bxehje899.now.sh/)
+### [live preview](https://apple-landing-page-2014.imhta.now.sh)
 
 ## Author
 ### [@imhtapm](https://github.com/imhtapm)
