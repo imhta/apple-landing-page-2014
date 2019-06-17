@@ -7,5 +7,5 @@
   
 ### [live preview](https://apple-landing-page-2014-bxehje899.now.sh/)
 
-# Author
+## Author
 ### [@imhtapm](https://github.com/imhtapm)
