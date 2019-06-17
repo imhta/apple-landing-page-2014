@@ -28,7 +28,7 @@ a:hover{
 
 }
 nav{
-  background: linear-gradient(180deg,grey, black, grey);
+  background: linear-gradient(180deg,grey 28%, rgb(61, 61, 61) , grey );
   width: 980px;
   height: 35px;
   margin: 7.2%  auto 0px;
