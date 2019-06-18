@@ -2,16 +2,17 @@ body {
   padding: 0;
   margin: 0;
 }
-a{  color: #08c;
-    text-decoration: none;
+a {
+  color: #08c;
+  text-decoration: none;
 }
-a:hover{
-    text-decoration: underline;   
+a:hover {
+  text-decoration: underline;
 }
-.container{
-    max-width: 1440px; 
-    width: 100%;
-    margin: 0 auto;
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .m-img {
@@ -25,13 +26,12 @@ a:hover{
   background-size: cover;
   max-width: 1440px;
   max-height: 645px;
-
 }
-nav{
-  background: linear-gradient(180deg,grey 28%, rgb(61, 61, 61) , grey );
+nav {
+  background: linear-gradient(180deg, grey 28%, rgb(61, 61, 61), grey);
   width: 980px;
   height: 35px;
-  margin: 7.2%  auto 0px;
+  margin: 7.2% auto 0px;
   border-radius: 4px;
 }
 nav ul {
@@ -40,19 +40,19 @@ nav ul {
   margin: 0;
   padding: 0px;
 }
-nav ul li{
+nav ul li {
   margin: 3px 0px;
   border-right: solid 1px rgb(80, 80, 80);
 }
 
-#apple-logo{
+#apple-logo {
   background-image: url(./assets/globalnav_text.png);
   background-repeat: no-repeat;
   background-position: center 0%;
   width: 100%;
   height: 30px;
 }
-#store{
+#store {
   background-image: url(./assets/globalnav_text.png);
   background-repeat: no-repeat;
   background-position: center -30px;
@@ -60,42 +60,42 @@ nav ul li{
   height: 30px;
 }
 
-#mac{
+#mac {
   background-image: url(./assets/globalnav_text.png);
   background-repeat: no-repeat;
   background-position: center -60px;
   width: 100%;
   height: 30px;
 }
-#ipod{
+#ipod {
   background-image: url(./assets/globalnav_text.png);
   background-repeat: no-repeat;
   background-position: center -90px;
   width: 100%;
   height: 30px;
 }
-#iphone{
+#iphone {
   background-image: url(./assets/globalnav_text.png);
   background-repeat: no-repeat;
   background-position: center -120px;
   width: 100%;
   height: 30px;
 }
-#ipad{
+#ipad {
   background-image: url(./assets/globalnav_text.png);
   background-repeat: no-repeat;
   background-position: center -150px;
   width: 100%;
   height: 30px;
 }
-#itunes{
+#itunes {
   background-image: url(./assets/globalnav_text.png);
   background-repeat: no-repeat;
   background-position: center -180px;
   width: 100%;
   height: 30px;
 }
-#support{
+#support {
   background-image: url(./assets/globalnav_text.png);
   background-repeat: no-repeat;
   background-position: center -210px;
@@ -103,7 +103,7 @@ nav ul li{
   height: 30px;
 }
 
-#search input{
+#search input {
   background-image: url(./assets/globalsearch_field.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -113,28 +113,27 @@ nav ul li{
   border: none;
   outline: none;
   box-shadow: none;
-  border-radius: 15px; 
+  border-radius: 15px;
   padding-left: 22px;
 }
 
-#search input:focus{
+#search input:focus {
   background-image: url(./assets/globalsearch_field.png);
   background-repeat: no-repeat;
   background-position: bottom;
   border: none;
   outline: none;
   box-shadow: none;
- 
 }
 #search {
   width: 164px;
   margin: 5.54px 12.4px;
   border-right: none;
 }
-header{
-    width: 980px;
-    margin: auto;
-    margin-top: 20px;
+header {
+  width: 980px;
+  margin: auto;
+  margin-top: 20px;
 }
 .heading {
   width: 980px;
@@ -163,7 +162,6 @@ header{
 .sm-heading:hover {
   background-position: 0px -32px;
   cursor: pointer;
-
 }
 .sm-img-wrappper {
   display: flex;
@@ -173,72 +171,78 @@ header{
   max-width: 1440px;
   max-height: 200px;
 }
-.sm-img-wrappper .a-img {
+.sm-img-wrappper a{
   width: 365px;
   height: 200px;
+}
+.sm-img-wrappper .a-img {
+  width: 100%;
+  height: 100%;
   background-image: url(./assets/promo_iphone5s.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-right: solid 2.5px white;
 }
 .sm-img-wrappper .b-img {
-  width: 365px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   background-image: url(./assets/promo_iphone5c.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  border-right: solid 2.5px white;
 }
 .sm-img-wrappper .c-img {
-  width: 365px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   background-image: url(./assets/promo_30_years.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  border-right: solid 2.5px white;
 }
 .sm-img-wrappper .d-img {
-  width: 365px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   background-image: url(./assets/promo_supplier_responsibility.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-footer{
-    margin: 0 auto;
-    width: 980px;
-    padding: 0.1em 0 2.6em;
+footer {
+  margin: 0 auto;
+  width: 980px;
+  padding: 0.1em 0 2.6em;
 }
-footer .row{
-    display: flex;
-    width: 980px;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding-top: 15px;
+footer .row {
+  display: flex;
+  width: 980px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 15px;
 }
-footer .col{
-    height: fit-content;
-    position: relative;
-    color: #6e6e6e;
-    font-size: 10.0008px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+footer .col {
+  height: fit-content;
+  position: relative;
+  color: #6e6e6e;
+  font-size: 10.0008px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-footer .col ul{
-    display: flex;
-    margin-top: 0;
-    list-style: none;
-
+footer .col ul {
+  display: flex;
+  margin-top: 0;
+  list-style: none;
 }
-footer .col ul li{
-    border-right: solid  1px  #6e6e6e;
-    padding: 0 5px;
+footer .col ul li {
+  border-right: solid 1px #6e6e6e;
+  padding: 0 5px;
 }
-footer .col ul li:last-child{
+footer .col ul li:last-child {
   border-right: none;
 }
-.usa{
-    width: 16px;
-    height: 16px;
-    margin-left: 5px;
-    position: absolute;
-    right: -20px;
-    top: -2px;
+.usa {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  position: absolute;
+  right: -20px;
+  top: -2px;
 }
