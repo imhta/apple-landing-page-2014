@@ -9,4 +9,4 @@
 ### [live preview](https://apple-landing-page-2014.imhta.now.sh)
 
 ## Author
-### [@imhtapm](https://github.com/imhtapm)
+### [@imhta](https://github.com/imhta)
